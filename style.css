@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #333;
+    line-height: 1.7;
+    background: #fff;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background: #1a2744;
+    padding: 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.nav-name {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 18px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 18px 0;
+    display: inline-block;
+    transition: color 0.15s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* Sections */
+section {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 56px 48px;
+}
+
+/* About */
+.about-container {
+    display: flex;
+    gap: 44px;
+    align-items: flex-start;
+}
+
+.photo-placeholder {
+    width: 180px;
+    min-width: 180px;
+    height: 220px;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+    color: #1a2744;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.bio-text {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #444;
+}
+
+.bio-contact {
+    margin-top: 14px;
+}
+
+.bio-contact a {
+    color: #1a2744;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Divider */
+hr.divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+/* Section headings */
+h2 {
+    font-size: 1.3em;
+    color: #1a2744;
+    margin-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* Research */
+.paper {
+    margin-bottom: 32px;
+}
+
+.paper-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.paper-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a2744;
+    margin-bottom: 12px;
+}
+
+.abstract {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.paper-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1a2744;
+    text-decoration: none;
+}
+
+.paper-links a:hover {
+    text-decoration: underline;
+}
+
+/* CV */
+.cv-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1a2744;
+}
+
+/* Teaching */
+.placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Contact */
+#contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 2px;
+}
+
+#contact a {
+    color: #1a2744;
+}
